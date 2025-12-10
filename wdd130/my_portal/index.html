@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eldon McClure Portal</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav>
+        <div id="book-logo"> <img src="images/mcclure-book-logo.png" alt="logo"></div>
+        <a href="index.html" class="nav-icon"><h1>Home</h1></a>
+        <a href="" class="nav-icon"><h1>About Me</h1></a>
+        <a href="" class="nav-icon"><h1>WWR</h1></a>
+        <a href="ice.html" class="nav-icon"><h1>ICE</h1></a>
+    </nav>
+    <main>
+        <section id="hero">
+            <img src="images/hero-img.jpg" alt="A desk seen from above, with a computer and study supplies on it">
+        </section>
+        <section id="column">
+
+            <div id="about-me">
+                <a href="about.html" class="image-link">
+                    <img src="images/eldon-mcclure.jpg" alt="A photo of Eldon McClure">
+                </a><br>
+                <div id="about-me-description">
+                    <h2>About Me</h2>
+                    <p>I'm Eldon McClure, an aspiring programmer learning to write code in Python.</p>  
+                        <p>Click above to learn more about me and my experience!</p> 
+                </div>
+            </div>
+            <br>
+            <div id="wwr">
+                <a href="wwr.html" class="image-link">
+                    <img src="images/wwr-hero.png" alt="People enjoying white water rafing">
+                </a><br>
+                <div id="wwr-description">
+                    <h2>WWR</h2>
+                    <p>Click above to view the white water rafting tour website I worked on!</p><br>
+                </div>
+            </div>
+            <br>
+            <div id="ice">
+                    <a href="ice.html" class="image-link">
+                        <img src="images/coding-computer.jpg" alt="Hands typing code on a computer">
+                    </a>
+                        <div id="ice-description">
+                    <h2>ICE (In-Class Exercises)</h2>
+                    <p>Click above to check out the web design projects I've worked on in the past!</p><br>
+                </div>
+            </div>
+            <br>
+        </section>
+            <footer>
+                <div id="footer-info">
+                    <div id="contact-details">
+                        <h3>Contact Me:</h3>
+                        <ul>
+                            <li>(123) 456-7890</li>
+                            <li>notmyemail@gmail.com</li><br>
+                        </ul>
+                    </div>
+                    <form>
+                        <!-- Ask for Name, email, and include a silly question -->
+                        <label for="top-label">Please fill out this survey! 
+                            I'm very curious about what people like reading in different age groups, 
+                            so I'd love to hear what you're reading too!.</label><br>
+                        <br><label for="fname">First Name:</label><br>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="age">Age:</label><br>
+                        <input type="text" id="age" name="age"><br><br>
+                        <label for="question">Favorite book:</label><br>
+                        <input type="text" id="question" name="question"><br>
+                        <br><input type="submit" value="Submit">
+                    </form>
+                </div>
+            </footer>
+    </main>
+</body>
+</html>
