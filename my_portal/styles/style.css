@@ -83,6 +83,8 @@ nav h1 {
     position: relative;
 }
 
+
+
 /* About Me */
 
 #about-me {
@@ -240,6 +242,25 @@ nav h1 {
     max-height: auto;
     position: relative;
 }
+
+/* Client Report */
+
+header {
+    background-color: #faebd7;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 30px;
+    border: 10px solid black;
+    text-align: center;
+}
+
+.report {
+    background-color: #faebd7;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid black;
+}
+
 /* Footer */
 
 footer {
@@ -273,3 +294,4 @@ form {
     margin-right: 20px;
     padding: 5px;
 }
+
